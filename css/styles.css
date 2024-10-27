@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+#containerBienvenida{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 37px;
+    border: 2px ridge rgb(0, 0, 0);
+    color: rgba(5, 5, 5, 0.904);
+    -webkit-text-stroke: 2px rgb(5, 5, 5);
+}
+.logo{
+    border-radius: 50%;
+
+}
+#containerInfo{
+    width: 50%;
+    margin: 0px auto;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    font-size: 23px;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+.clearfix{
+    clear:both;
+}
+nav{
+    background: rgb(255, 254, 254);
+    height: 40px;
+    border-bottom: 1px black;
+}
+#content{
+    width: 100%;
+    margin: 0% auto;
+    text-align: center;
+    font-size: 30px;
+}
