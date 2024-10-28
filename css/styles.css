@@ -46,6 +46,7 @@ nav{
     background: rgb(255, 254, 254);
     height: 40px;
     border-bottom: 1px black;
+    text-align: center;
 }
 #content{
     display: flex;
@@ -57,4 +58,14 @@ nav{
 }
 .content article{
 font-size: 100px;
+}
+.article{
+float: left;
+width: 100%;
+margin: 1px auto;
+flex-wrap: wrap;
+}
+.produ{
+    text-align: center;
+    background-color: #cf915c;
 }
