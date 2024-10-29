@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 body{
     background-image: url(../imagenes/fondo.png);
@@ -122,4 +123,8 @@ footer{
 .icon{
     float:right ;
     margin: auto;
+}
+.pago{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
