@@ -49,7 +49,7 @@ nav{
     text-align: center;
 }
 #content{
- background-color: white;
+ 
 }
 .content article{
 font-size: 100px;
@@ -58,33 +58,12 @@ font-size: 100px;
 .article{
 
 background-color: #08080821;
-display: grid;
-grid-template-columns: repeat(3,1fr);
-gap: 1px;
+text-align: center;
 }
-.article img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
+
 
 .produ{
     text-align: center;
     background-color: #cf915c;
     font-size: 30px;
-}
-.pasteleria{
-    font-size: 40px;
-    text-align: center;
-    background-color: #cf915c;
-}
-.tartas{background-color: #08080821;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1px;
-}
-.tartas img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
 }
