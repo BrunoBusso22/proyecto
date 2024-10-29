@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+#containerBienvenida{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 37px;
+    color: rgba(5, 5, 5, 0.904);
+    -webkit-text-stroke: 2px rgb(5, 5, 5);
+}
+.logo{
+    border-radius: 50%;
+
+}
+#containerInfo{
+    width: 50%;
+    margin: 0px auto;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    font-size: 23px;
+    background-color: #8d492559;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+.clearfix{
+    clear:both;
+}
+nav{
+    background: rgb(255, 254, 254);
+    height: 40px;
+    border-bottom: 1px black;
+    text-align: center;
+}
+#content{
+<<<<<<< HEAD:css/styles.css
+ 
+=======
+    display: flex;
+    width: 100%;
+    margin: 0% auto;
+    text-align: center;
+    font-size: 30px;
+    flex-direction: row;
+>>>>>>> df49244eee7c6537fad3823672a3fb4fd79ff6f3:proyecto1/css/styles.css
+}
+.content article{
+font-size: 100px;
+}
+.article{
+<<<<<<< HEAD:css/styles.css
+
+background-color: #08080821;
+text-align: center;
+}
+
+
+=======
+float: left;
+width: 100%;
+margin: 1px auto;
+flex-wrap: wrap;
+}
+>>>>>>> df49244eee7c6537fad3823672a3fb4fd79ff6f3:proyecto1/css/styles.css
+.produ{
+    text-align: center;
+    background-color: #cf915c;
+}
+<<<<<<< HEAD:css/styles.css
+=======
+.des{
+    list-style: none;
+    flex: 1; 
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    height: 60vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+>>>>>>> df49244eee7c6537fad3823672a3fb4fd79ff6f3:proyecto1/css/styles.css
