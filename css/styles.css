@@ -1,9 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
+<<<<<<< HEAD
     scroll-behavior: smooth;
     text-align: center;
     box-sizing: border-box;
+=======
+    overflow-x: hidden;
+>>>>>>> 4ac3b2744000ae14e35c62ee7a5477db5a66abe3
 }
 body{
     background-image: url(../imagenes/fondo.png);
@@ -138,4 +142,8 @@ footer{
 .icon{
     float:right ;
     margin: auto;
+}
+.pago{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
