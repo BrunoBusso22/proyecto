@@ -1,13 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
-<<<<<<< HEAD
     scroll-behavior: smooth;
     text-align: center;
     box-sizing: border-box;
-=======
-    overflow-x: hidden;
->>>>>>> 4ac3b2744000ae14e35c62ee7a5477db5a66abe3
 }
 body{
     background-image: url(../imagenes/fondo.png);
@@ -121,21 +117,42 @@ body{
     display: inline-block;
     border-radius: 8px;
 }
-.des{
-    display:flexbox;
+
+.contenedor{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /*esto es el espacio entre el video y los descuentos*/
+    padding: 20px;
+}
+.video{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.texto {
+    flex: 2; 
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.des {
     list-style: none;
     padding: 20px 30px;
     margin: 0;
-    width: 50%;
-    height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
-    overflow: hidden;
+    background-color: #8d492559;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    align-items: center;
-  
 }
+.des ul {
+    list-style: none;
+}
+
+
 footer{
     text-align: center;
 }
@@ -143,7 +160,26 @@ footer{
     float:right ;
     margin: auto;
 }
-.pago{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+#pse{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
+.p{
+    border-right: 1px solid black;
+    font-size: 18px;
+}
+.e{
+    border-left: 1px solid black;
+    font-size: 18px;
+
+}
+.s{
+    font-size: 18px;
+}
+.des h3{
+    font-size: 55px;
 }
