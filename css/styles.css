@@ -13,7 +13,7 @@ body{
     background-size:cover;
     font-family: 'Times New Roman', Times, serif;
 }
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,6 +48,7 @@ body{
     font-size: 700;
     color: aliceblue;
     text-decoration: none;
+    transition: all 1s ease;
 }
 .header .nav-links li a:hover{
     color: #cf915c;
@@ -78,9 +79,7 @@ body{
     background-color:#8d492559;
     border-radius: 5px;
 }
-.clearfix{
-    clear:both;
-}
+
 #content{
     display: flex;
     width: 100%;
@@ -226,4 +225,8 @@ footer{
 .fondo{
     margin-top: 45px;
     color: #fcfcfc;
+}
+.sd{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0%;
 }
